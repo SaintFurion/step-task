@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+header {
+  min-height: 787px;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+  max-width: 1536px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+a:hover {
+  color: rgb(225, 232, 225);
+}
+
+a:active {
+  color: rgb(183, 188, 183);
+}
+
+.promo {
+  float: left;
+}
+
+.auth {
+  float: right;
+}
+
+.link {
+  padding-top: 250px;
+  text-align: center;
+}
+
+.link a {
+  font-size: 30px;
+}
+
+.form {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 150px;
+}
+
+input {
+  width: 250px;
+  border: none;
+  border-bottom: 3px solid rgba(255,255,255, 0.4);
+  color:white;
+  opacity:1;
+  background-color: transparent;
+  font-size: 20px;
+  padding: 5px 0;
+  margin: 10px 0;
+}
+
+input[type='submit'] {
+  margin-top: 30px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 20px;
+  background: linear-gradient(to right, #00ccff 0%, #ff00ff 100%);
+  transition: 0.2s linear;
+}
+
+input:active {
+  color: rgb(225, 232, 225);
+}
+
+input:active,
+input:focus {
+  outline:none;
+}
+
+table {
+  width: 300px;
+  margin: 0 auto;
+}
